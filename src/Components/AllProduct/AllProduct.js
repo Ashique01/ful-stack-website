@@ -5,7 +5,7 @@ import SingleProduct from './singleProduct/SingleProduct';
 const AllProduct = () => {
     const [products, setProducts] = useState([])
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://thawing-castle-81638.herokuapp.com/products')
             .then(res => res.json())
             .then(data => setProducts(data));
     }, [])

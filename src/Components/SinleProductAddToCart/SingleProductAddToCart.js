@@ -11,7 +11,7 @@ const SingleProductAddToCart = () => {
     const [singleDetail, setSingleDetail] = useState({})
     const { user } = useAuth();
     useEffect(() => {
-        fetch('http://localhost:5000/products')
+        fetch('https://thawing-castle-81638.herokuapp.com/products')
             .then(res => res.json())
             .then(data => setDetails(data));
     }, [])
@@ -25,7 +25,7 @@ const SingleProductAddToCart = () => {
     const { register, handleSubmit } = useForm();
     const onSubmit = data => {
         console.log(data);
-        fetch('http://localhost:5000/confirmOrder', {
+        fetch('https://thawing-castle-81638.herokuapp.com/confirmOrder', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

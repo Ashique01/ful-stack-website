@@ -11,7 +11,7 @@ const AddProducts = () => {
     } = useForm();
 
     const onSubmit = (data) => {
-        fetch("http://localhost:5000/addProducts", {
+        fetch("https://thawing-castle-81638.herokuapp.com/addProducts", {
             method: "POST",
             headers: { "content-type": "application/json" },
             body: JSON.stringify(data),

@@ -13,14 +13,14 @@ const MangeOrder = () => {
     };
     console.log(status);
     useEffect(() => {
-        fetch("http://localhost:5000/allOrders")
+        fetch("https://thawing-castle-81638.herokuapp.com/allOrders")
             .then((res) => res.json())
             .then((data) => setOrders(data));
     }, [dlt]);
 
     // const status = "apporved";
     const handleUpdate = (id) => {
-        fetch(`http://localhost:5000/updateStatus/${id}`, {
+        fetch(`https://thawing-castle-81638.herokuapp.com/updateStatus/${id}`, {
             method: "PUT",
             headers: { "content-type": "application/json" },
             body: JSON.stringify({ status }),
@@ -29,7 +29,7 @@ const MangeOrder = () => {
         console.log(id);
     };
     const handleDelete = id => {
-        fetch(`http://localhost:5000/allOrders/${id}`, {
+        fetch(`https://thawing-castle-81638.herokuapp.com/allOrders/${id}`, {
             method: "DELETE",
         })
             .then(res => res.json())

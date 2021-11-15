@@ -11,13 +11,13 @@ const Myorder = () => {
     const [dlt, setDlt] = useState(false);
     console.log(email);
     useEffect(() => {
-        fetch(`http://localhost:5000/myOrders/${email}`)
+        fetch(`https://thawing-castle-81638.herokuapp.com/myOrders/${email}`)
             .then(res => res.json())
             .then(data => setOrders(data))
 
     }, [dlt])
     const handleDelete = id => {
-        fetch(`http://localhost:5000/cancelOrder/${id}`, {
+        fetch(`https://thawing-castle-81638.herokuapp.com/cancelOrder/${id}`, {
             method: "DELETE",
         })
             .then(res => res.json())
