@@ -1,0 +1,29 @@
+  
+  .card {
+      height: 60vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+
+  
+.img-style{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    display: block;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+}

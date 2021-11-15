@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F2F2F2
+}
+
+h1 {
+    text-align: center;
+    color: #333333
+}
+
+.cardcontainer {
+    width: 550px;
+    height: 100vh;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 5s
+}
+
+.cardcontainer:hover {
+    box-shadow: 0 0 45px gray
+}
+
+.photo {
+    height: 300px;
+    width: 100%
+}
+
+.photo img {
+    height: 100%;
+    width: 50%
+}
+.content {
+    width: 80%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -33px
+}
+
+.photos {
+    width: 90px;
+    height: 30px;
+    background-color: #E74C3C;
+    color: white;
+    position: relative;
+    top: -30px;
+    padding-left: 10px;
+    font-size: 20px
+}
+
+.txt4 {
+    font-size: 20px;
+    position: relative;
+    top: 33px
+}
+
+.cardcontainer:hover>.photo {
+    height: 200px;
+    animation: move1 1s ease both
+}
+
+@keyframes move1 {
+    0% {
+        height: 300px
+    }
+
+    100% {
+        height: 200px
+    }
+}
+
+.cardcontainer:hover>.content {
+    height: 200px
+}
+.fa-gratipay:hover {
+    color: #E74C3C
+}
+
+.txt3 {
+    color: gray;
+    position: relative;
+    top: 18px;
+    font-size: 14px
+}
+
+.comments {
+    float: right;
+    cursor: pointer
+}
+
+.fa-clock,
+.fa-comments {
+    margin-right: 7px
+}

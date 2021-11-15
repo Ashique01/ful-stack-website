@@ -1,0 +1,13 @@
+.image-circle{
+    width: 70px;
+    height: 65px;
+    background-size: cover;
+    display: block;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+}
+
+.card-makeup:hover {
+    background-color: rgb(26, 23, 23);
+}
