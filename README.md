@@ -2,6 +2,22 @@
 ### Live Site Link:
 https://kena-becha-f231d.web.app
 
+#### FakeStoreAPI
+[FakeStoreAPI](https://fakestoreapi.com/) is a free online REST API that you can use whenever you need Pseudo-real data for your e-commerce or shopping website without running any server-side code. It's awesome for teaching purposes, sample codes, tests and etc.
+
+#### Resourse
+
+There are 4 main resources need in shopping prototypes:
+
+* Products https://fakestoreapi.com/products
+* Carts https://fakestoreapi.com/carts
+* Users https://fakestoreapi.com/users
+* Login Token https://fakestoreapi.com/auth/login
+
+You can visit in detail docs in [FakeStoreAPI](https://fakestoreapi.com/) for more information.
+
+### I have used fakeStoreApi only the [Products](https://fakestoreapi.com/products) Part.Some products I have created by my own
+
 ### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
