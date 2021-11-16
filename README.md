@@ -5,6 +5,7 @@
 =======
 ### Live Site Link:
 https://kena-becha-f231d.web.app
+https://kena-becha-f231d.firebaseapp.com/ (try to use it)
 
 #### FakeStoreAPI
 [FakeStoreAPI](https://fakestoreapi.com/) is a free online REST API that you can use whenever you need Pseudo-real data for your e-commerce or shopping website without running any server-side code. It's awesome for teaching purposes, sample codes, tests and etc.
