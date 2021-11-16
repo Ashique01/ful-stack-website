@@ -26,10 +26,8 @@ const Register = () => {
         registerUser(loginData.email, loginData.password, loginData.displayName, history);
         e.preventDefault();
     }
-    const saved_user = (email, displayName) => {
-        const user_info = { email, displayName }
-    }
-    const { signInUsingGoogle } = useAuth();
+
+    const { signInWithGoogle } = useAuth();
     return (
         <div>
             <Container>
@@ -88,7 +86,7 @@ const Register = () => {
                                                         <Button className='btn btn-danger mt-2'>Already Registered? Please Login</Button>
                                                     </NavLink>
                                                 </div>
-                                                <Button onClick={signInUsingGoogle} className="btn btn-lg btn-google  text-uppercase mt-2 "><img src="https://img.icons8.com/color/16/000000/google-logo.png" alt="" /> Signin Using Google</Button>
+                                                <Button onClick={signInWithGoogle} className="btn btn-lg btn-google  text-uppercase mt-2 "><img src="https://img.icons8.com/color/16/000000/google-logo.png" alt="" /> Signin Using Google</Button>
                                             </div>
                                         </form>}
                                         {isLoading && <Spinner animation="border" variant="warning" />}

@@ -65,6 +65,7 @@ const useFirebase = () => {
             }).finally(() => setIsLoading(false));
     }
 
+
     // observer user state
     useEffect(() => {
         const unsubscribed = onAuthStateChanged(auth, (user) => {

@@ -25,7 +25,7 @@ const Login = () => {
         loginUser(loginData.email, loginData.password, location, history);
         e.preventDefault();
     }
-    const { signInUsingGoogle } = useAuth();
+    const { signInWithGoogle } = useAuth();
     return (
         <div>
             <Container>
@@ -72,7 +72,7 @@ const Login = () => {
                                                 <Button className='btn btn-danger mt-2'>New User? Please Register</Button>
                                             </NavLink>
                                         </div>
-                                        <Button onClick={signInUsingGoogle} className="btn btn-lg btn-google mt-3  text-uppercase "><img src="https://img.icons8.com/color/16/000000/google-logo.png" alt="" /> Signin Using Google</Button>
+                                        <Button onClick={signInWithGoogle} className="btn btn-lg btn-google mt-3  text-uppercase "><img src="https://img.icons8.com/color/16/000000/google-logo.png" alt="" /> Signin Using Google</Button>
 
                                     </div>
 
