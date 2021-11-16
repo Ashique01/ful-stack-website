@@ -1,10 +1,10 @@
 # Welcome to Local Box Store
-<<<<<<< HEAD
+
 ### Getting Started with Create React App
 
-=======
 ### Live Site Link:
 web app: [wev.app](https://kena-becha-f231d.web.app)
+\n
 firebaseapp :[firebaseapp.com](https://kena-becha-f231d.firebaseapp.com/) (try to use it)
 
 #### FakeStoreAPI
@@ -25,7 +25,6 @@ You can visit in detail docs in [FakeStoreAPI](https://fakestoreapi.com/) for mo
 
 ### Getting Started with Create React App
 
->>>>>>> 1fb01d7d063368b504e76f3498d42f72f038896e
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### A overview of this project 
@@ -47,7 +46,7 @@ The projuct is basically a Local Box Store. Where you can find some of your need
 
 The Project is still under Development.So Pardon me as a Noob
 
-<<<<<<< HEAD
+
 #### HappY CoddinG 🤖
 =======
 ## Most Important if you want to run the project add a .env.local,.env,npm run install
@@ -55,4 +54,4 @@ The Project is still under Development.So Pardon me as a Noob
 ### Thank You
 
 #### HappY CoddinG 🤖
->>>>>>> 1fb01d7d063368b504e76f3498d42f72f038896e
+
