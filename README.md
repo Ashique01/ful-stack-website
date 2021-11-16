@@ -2,7 +2,6 @@
 
 ### Getting Started with Create React App
 
-=======
 ### Live Site Link:
 web app: [wev.app](https://kena-becha-f231d.web.app)
 \n
