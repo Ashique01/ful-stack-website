@@ -1,10 +1,11 @@
 # Welcome to Local Box Store
-<<<<<<< HEAD
+
 ### Getting Started with Create React App
 
 =======
 ### Live Site Link:
 web app: [wev.app](https://kena-becha-f231d.web.app)
+\n
 firebaseapp :[firebaseapp.com](https://kena-becha-f231d.firebaseapp.com/) (try to use it)
 
 #### FakeStoreAPI
