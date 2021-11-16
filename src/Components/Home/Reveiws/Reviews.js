@@ -14,7 +14,7 @@ const Reviews = () => {
         <div className='container-fluid'>
             <h1 className='fw-bolder fs-1 text-primary mt-5 mb-5'>Our Customers FeedBack</h1>
             <section className='container-fluid'>
-                <Row xs={1} md={3} sm={2} className='mx-auto'>
+                <Row xs={1} md={3} sm={2} className=''>
                     {
                         reviews.map(review => <Review
                             key={review._id}
