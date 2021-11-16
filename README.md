@@ -48,7 +48,7 @@ The projuct is basically a Local Box Store. Where you can find some of your need
 
 The Project is still under Development.So Pardon me as a Noob
 
-<<<<<<< HEAD
+
 #### HappY CoddinG 🤖
 =======
 ## Most Important if you want to run the project add a .env.local,.env,npm run install
@@ -56,4 +56,4 @@ The Project is still under Development.So Pardon me as a Noob
 ### Thank You
 
 #### HappY CoddinG 🤖
->>>>>>> 1fb01d7d063368b504e76f3498d42f72f038896e
+
