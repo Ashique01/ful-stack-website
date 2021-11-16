@@ -4,6 +4,7 @@ import { Alert, Col, Container, Form, Row, Spinner } from 'react-bootstrap';
 import { NavLink, useLocation, useHistory } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 import useFirebase from '../../Hooks/useFirbase';
+
 import login from '../../Images/Login/login.png'
 import './Login.css'
 
@@ -25,7 +26,7 @@ const Login = () => {
         loginUser(loginData.email, loginData.password, location, history);
         e.preventDefault();
     }
-    const { signInWithGoogle } = useAuth();
+    const { signInWithGoogle } = useFirebase();
     return (
         <div>
             <Container>

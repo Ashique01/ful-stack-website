@@ -27,7 +27,8 @@ const Register = () => {
         e.preventDefault();
     }
 
-    const { signInWithGoogle } = useAuth();
+    //const { signInWithGoogle } = useAuth();
+    const { signInWithGoogle } = useFirebase()
     return (
         <div>
             <Container>
