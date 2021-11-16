@@ -26,7 +26,6 @@ You can visit in detail docs in [FakeStoreAPI](https://fakestoreapi.com/) for mo
 
 ### Getting Started with Create React App
 
->>>>>>> 1fb01d7d063368b504e76f3498d42f72f038896e
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### A overview of this project 
