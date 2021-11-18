@@ -59,4 +59,12 @@ width: 100px;
 color: black;
 background-color: white;
 }
+.btn-google {
+    color: #545454;
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px 1px #ddd
+}
+.btn-google:hover{
+    background-color: #4242fcd5;
+}
 

@@ -73,7 +73,7 @@ const Login = () => {
                                                 <Button className='btn btn-danger mt-2'>New User? Please Register</Button>
                                             </NavLink>
                                         </div>
-                                        <Button onClick={signInWithGoogle} className="btn btn-lg btn-google mt-3  text-uppercase "><img src="https://img.icons8.com/color/16/000000/google-logo.png" alt="" /> Signin Using Google</Button>
+                                        <Button onClick={signInWithGoogle} className="btn btn-lg btn-google mt-3  text-uppercase btn-google"><img src="https://img.icons8.com/color/16/000000/google-logo.png" alt="" /> Signin Using Google</Button>
 
                                     </div>
 
