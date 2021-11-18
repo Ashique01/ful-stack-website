@@ -12,7 +12,7 @@ const AboutUs = () => {
     return (
         <div>
             <section className="about-section">
-                <h1 className='text-dark fw-bolder fs-1'>About Us Page</h1>
+                <h1 className='text-dark fw-bolder fs-1 text-success'>About Us</h1>
                 <h3 className='mt-5 mb-5'>Some text about who we are and what we do.</h3>
                 <p className='fw-bolder fs-6'>Its not an Ecommerce site.We have imports products from outside of the country sell those products with a slide profit.We assure that no one will be unsetisfied </p>
             </section>
